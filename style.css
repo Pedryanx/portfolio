@@ -25,7 +25,7 @@ body h2.digitando {
 
 header {
     border-width: 20px;
-    background: linear-gradient(black,black);
+    background: black;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -39,7 +39,7 @@ header h1 {
 }
 
 header span {
-    color: lightgray;
+    color: black;
   
 }
 
@@ -57,7 +57,7 @@ header span2 {
 
 header .navegação-primaria li a {
     padding: 05.5px;
-    color: #fff;
+    color: darkgray;
     font-size: 1.2rem;
     flex-direction: center;
     display: flex;
@@ -65,7 +65,7 @@ header .navegação-primaria li a {
 
 .section-div {
     animation: inicializar .7s forwards;
-    background: linear-gradient(black,black);
+    background: beige;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-around;
@@ -401,6 +401,7 @@ main .sobre {
 .my_services ul li i {
     font-size: 2.7rem;
     color:black;
+    margin-top: 30px;
 }
 
 .my_services ul li h3 {
@@ -408,11 +409,13 @@ main .sobre {
     font-size: 1.6rem;
     font-family: 'poppins';
     font-weight: 500;
+    margin-top: -20px;
 }
 
 .my_services ul li p {
     color: #707070;
     font-size: 1.1rem;
+    margin-top: -20px;
 }
 
 .my_services li::before {
@@ -653,6 +656,8 @@ main .sobre {
 
 .skill_content h3 {
     font-size: 1.5rem;
+    justify-content: end;
+
 }
 
 .skill_content ul {
